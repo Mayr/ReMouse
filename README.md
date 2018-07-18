@@ -1,7 +1,8 @@
 # ReMouse-Android
 
-## Download APK
+## Download 
 To download the Android APK[4.4+] : <a href="http://bit.ly/ReMouse-Android">Click Here</a>
+To download the computer software : <a href="http://bit.ly/ReMouse-Computer">Click Here</a>
 
 ## About
 This repository contains the source code for the ReMouse software[Phone]. 
