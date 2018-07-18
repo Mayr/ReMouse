@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tilerep"
+    tools:context="com.mayurm.remouse.MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="#88ffffff">
+
+        <ImageView
+            android:id="@+id/closeConnection"
+            android:padding="8dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:tint="@color/colorPrimaryDark"
+            android:src="@drawable/cross"/>
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/border"
+        android:layout_width="8dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/buttonLayout"
+        android:background="@drawable/mygradalt" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/border"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="16dp">
+
+        <View
+            android:clickable="false"
+            android:rotation="90"
+            android:layout_centerInParent="true"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/hand"/>
+
+        <View
+            android:id="@+id/touchArea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/dashed"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
